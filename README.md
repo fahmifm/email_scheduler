@@ -26,6 +26,7 @@ Endpoint to add recipient
 **Method** : `POST`
 
 **Data** : 
+
 `event_id` :  `Integer`
 
 `email_address` :  `String`
@@ -34,6 +35,7 @@ Endpoint to add recipient
   `x-www-form-urlencoded`
 
 **Example** :
+
 `event_id` :  `1`
 
 `email_address` :  `email@email.com`
@@ -60,6 +62,7 @@ Endpoint to add scheduled email
 **Method** : `POST`
 
   **Data** : 
+  
 `event_id` :  `Integer`
 
 `email_subject` : `String`
@@ -72,6 +75,7 @@ Endpoint to add scheduled email
   `x-www-form-urlencoded`
 
 **Example** :
+
 `event_id` :  `2`
 
 `email_subject` : `Meeting`
