@@ -27,6 +27,7 @@ Endpoint to add recipient
 
 **Data** : 
 `event_id` :  `Integer`
+
 `email_address` :  `String`
 
   **Format** :
@@ -34,6 +35,7 @@ Endpoint to add recipient
 
 **Example** :
 `event_id` :  `1`
+
 `email_address` :  `email@email.com`
 
 ## Success Response
@@ -59,17 +61,23 @@ Endpoint to add scheduled email
 
   **Data** : 
 `event_id` :  `Integer`
+
 `email_subject` : `String`
+
 `email_content` : `String`
-`timestamp` : `String`09-07-2018 18:21
+
+`timestamp` : `String`
 
   **Format** :
   `x-www-form-urlencoded`
 
 **Example** :
 `event_id` :  `2`
+
 `email_subject` : `Meeting`
+
 `email_content` : `Meeting with client`
+
 `timestamp` : `09-07-2018 18:21`
 
 ## Success Response
